@@ -22,6 +22,56 @@ Network Snapshot is a simple GNOME Shell extension that provides quick access to
 - nmcli
 - GNOME Control Center
 
+## Installation
+
+### 1. Clone the repository
+
+Open a terminal and clone Network Snapshot into your GNOME Shell extensions directory:
+
+```bash
+git clone https://github.com/dhruvtucker/network-snapshot.git ~/.local/share/gnome-shell/extensions/network-snapshot@dhruvtucker
+```
+
+gnome-extensions enable network-snapshot@dhruvtucker## Installation
+
+### 1. Clone the repository
+
+Open a terminal and clone Network Snapshot into your GNOME Shell extensions directory:
+
+```bash
+git clone https://github.com/dhruvtucker/network-snapshot.git ~/.local/share/gnome-shell/extensions/network-snapshot@dhruvtucker
+```
+
+### 2. Reload GNOME Shell
+
+Log out of your GNOME session and log back in so GNOME Shell can discover the extension.
+
+### 3. Enable Network Snapshot
+
+Enable the extension from the terminal:
+
+```bash
+gnome-extensions enable network-snapshot@dhruvtucker
+```
+
+Alternatively, enable **Network Snapshot** using the GNOME Extensions application.
+
+### Uninstall
+
+Disable the extension:
+
+```bash
+gnome-extensions disable network-snapshot@dhruvtucker
+```
+
+Then remove the extension directory:
+
+```bash
+rm -rf ~/.local/share/gnome-shell/extensions/network-snapshot@dhruvtucker
+```
+
+Log out and back in to complete the removal.
+
 ## Usage
 
 Click the Network Snapshot icon in the GNOME top panel to view your current network information.
