@@ -1,0 +1,7 @@
+{
+  "uuid": "network-snapshot@dhruvtucker",
+  "name": "Network Snapshot",
+  "description": "Quickly view and copy essential network information from the GNOME panel.",
+  "shell-version": ["50"],
+  "version": 1
+}
